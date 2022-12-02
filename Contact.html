@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Acceuil</title>
+    <link href="./AcceuilEtContact.css" rel="stylesheet" type="text/css">
+</head>
+<header>
+    <img src="./banniere.jpg" id="banniere">
+        <br/>
+    <h1>Le Gros Titre</h1>
+    <nav>
+        <ul>
+            <li><a href="./Index.html">Acceuil</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Galerie</a></li>
+            <li><a href="./Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <form method="POST" action="monProgramme.php">
+    <fieldset>
+        <legend>Contactez nous !</legend>
+        <div>
+            <label for="prenom">Prénom :</label>
+            <input type="text" name="prenom" placeholder="Entrez votre prénom" minlength="2" maxlength="20">
+        </div>
+            <br/>
+        <div>
+            <label for="email">Email :</label>
+            <input type="email" name="email" placeholder="Entrez votre Email">
+        </div>
+            <br/>
+        <div>
+            <label for="text">Commentaire :</label>
+            <br/>
+            <textarea placeholder="Laissez un commentaire ici" cols="70" rows="10" name="text"></textarea>
+        </div>
+            <br/>
+        <div>
+            <input checked type="checkbox" id="checkbox"><label for="checkbox">Envoie d'une copie</label>
+        </div>
+            <br/>
+        <div>
+            <input type="submit" value="Envoyer">
+            <input type="reset" value="Effacer">
+        </div>
+    </fieldset>
+    </form>
+</body>
+<footer>
+    <ul>
+        <li><a href="">lien1</a></li>
+        <li><a href="">lien2</a></li>
+        <li><a href="">lien3</a></li>
+        <li><a href="">lien4</a></li>
+    </ul>
+</footer>
+</html>
